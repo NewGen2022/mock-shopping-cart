@@ -1,9 +1,12 @@
-import './App.css';
+import './styles/App.css';
+import NavBar from './NavBar';
+import MyRoutes from './MyRoutes';
 
 function App() {
     return (
         <>
-            <h1>Mock Shopping Cart</h1>
+            <NavBar />
+            <MyRoutes />
         </>
     );
 }
