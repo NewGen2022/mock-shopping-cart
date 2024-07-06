@@ -1,0 +1,56 @@
+body.home-background {
+    background-image: url('../assets/nike-concept-art.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+body.home-background::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0; 
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+}
+
+#home h1, #home span {
+    position: relative;
+    z-index: 1;
+}
+
+#home h1 {
+    font-size: clamp(34px, 4vw, 60px);
+}
+
+#home span {
+    font-size: clamp(18px, 4vw, 24px);
+    margin-bottom: 40px;
+}
+
+#shop-now {
+    z-index: 1;
+}
+
+#shop-now button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    z-index: 1;
+    border: none;
+    font-size: 22px;
+}
