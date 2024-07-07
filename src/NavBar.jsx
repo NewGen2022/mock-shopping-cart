@@ -9,7 +9,7 @@ const NavBar = () => {
         <nav id='navbar'>
             <Link to='/mock-shopping-cart/' id='shop'>
                 <img className='icon-sneaker' src={sneakerIcon} />
-                <span>SNEAKEMP</span>
+                <span>SNEMP</span>
             </Link>
             <div id='navigation-links'>
                 <Link to='/mock-shopping-cart/sneakers/'>
