@@ -41,16 +41,66 @@ body.home-background::before {
 }
 
 #shop-now {
+    position: relative;
     z-index: 1;
 }
-
 #shop-now button {
+    position: relative;
     color: black;
-    background-color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    border-radius: 5px;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 10px;
     outline: none;
-    z-index: 1;
-    border: none;
     font-size: 22px;
+    z-index: 1;
+    overflow: hidden;
+}
+#shop-now button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 179, 0);
+    border: none;
+    color: white;
+    background-color: #1b1b1b;
+    font-weight: 600;
+}
+#shop-now button:active {
+    transform: scale(1);
+}
+
+#shop-now button::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #ffb300, #ffb300);
+    z-index: -1;
+    animation: rotate-border-color 5s linear infinite;
+    pointer-events: none;
+}
+
+#shop-now button::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: -1;
+}
+#shop-now button:hover::after {
+    background-color: #242424;
+}
+
+@keyframes rotate-border-color {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
