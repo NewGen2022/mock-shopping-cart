@@ -1,5 +1,5 @@
 import './styles/NavBar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import sneakerIcon from './assets/sneakers.png';
 import shoppingCartIcon from './assets/shopping-cart.png';
 
@@ -7,18 +7,18 @@ import shoppingCartIcon from './assets/shopping-cart.png';
 const NavBar = () => {
     return (
         <nav id='navbar'>
-            <Link to='/mock-shopping-cart/' id='shop'>
+            <NavLink to='/mock-shopping-cart/' id='shop'>
                 <img className='icon-sneaker' src={sneakerIcon} />
                 <span>SNEMP</span>
-            </Link>
+            </NavLink>
             <div id='navigation-links'>
-                <Link to='/mock-shopping-cart/sneakers/'>
+                <NavLink to='/mock-shopping-cart/sneakers/' className={({ isActive }) => isActive ? 'active-nav-link' : {} }>
                     <span>Sneakers</span>
-                </Link>
-                <Link to='/mock-shopping-cart/cart/' id='cart'>
+                </NavLink>
+                <NavLink to='/mock-shopping-cart/cart/' id='cart' className={({ isActive }) => isActive ? 'active-nav-link' : {} }>
                     <img className='icon-shop-cart' src={shoppingCartIcon} />
                     <span>Cart</span>
-                </Link>
+                </NavLink>
             </div>
         </nav>
     );
