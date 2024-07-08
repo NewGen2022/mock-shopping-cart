@@ -11,7 +11,7 @@ const Home = () => {
                 You can view sneakers, view information about them, 
                 add them to your cart and view your cart.
             </span>
-            <Link to="/mock-shopping-cart/sneakers" id='shop-now'>
+            <Link to="/mock-shopping-cart/sneakers/" id='shop-now'>
                 <button>Shop now</button>
             </Link>
         </div>
