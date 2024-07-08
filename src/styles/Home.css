@@ -24,6 +24,7 @@ body.home-background::before {
     text-align: center;
     width: 50%;
     height: 70%;
+    margin: 10% auto;
 }
 
 #home h1, #home span {
@@ -57,7 +58,7 @@ body.home-background::before {
 }
 #shop-now button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgb(255, 179, 0);
+    box-shadow: 0 0 10px #ffb300;
     border: none;
     color: white;
     background-color: #1b1b1b;
@@ -102,5 +103,17 @@ body.home-background::before {
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 960px) {
+    #home {
+        margin: 20% auto;
+    }
+}
+
+@media (max-width: 550px) {
+    #home {
+        margin: 30% auto;
     }
 }
