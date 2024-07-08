@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Air Jordan 1 Low SE Craft",
+        "price": "125$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e1156119-7b9f-4d44-a307-417bea74b0ff/air-jordan-1-low-se-craft-mens-shoes-h5JdjM.png",
+        "description": "Each Craft released puts a handmade feel on the AJ1, and these low-cut sneakers are no exception. Sandy neutrals come together in kicks that beg to be a part of every outfit. Premium suede adds texture while a lightly speckled outsole grounds your look with subtle detail."
+    },
+    {
+        "id": "2",
+        "name": "Air Jordan 1 Mid SE",
+        "price": "102$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/55ed06f8-c8a9-44b9-a40a-c0d2a298962c/air-jordan-1-mid-se-womens-shoes-wkMdft.png",
+        "description": "Up your AJ1 game. This luxe, tonal edition features stonewashed suede, heritage leather, and waxed laces. Lace up and hit that tunnel."
+    },
+    {
+        "id": "3",
+        "name": "Nike Air VaporMax Plus",
+        "price": "210$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/r9jumjsjqonzoiq0mvde/air-vapormax-plus-mens-shoes-nC0dzF.png",
+        "description": "The Nike Air VaporMax Plus looks to the past and propels you into the future. Nodding to the 1998 Air Max Plus with its floating cage, padded upper and heel logo, it adds revolutionary VaporMax Air technology to ramp up the comfort and create a modern look."
+    },
+    {
+        "id": "4",
+        "name": "Nike Air Max Plus",
+        "price": "180$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dfb51f39-5c14-4f31-9d9a-a25b880a3988/air-max-plus-mens-shoes-x9G2xF.png",
+        "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning."
+    },
+    {
+        "id": "5",
+        "name": "Nike Air Force 1 '07",
+        "price": "115$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1f53b04c-18dc-48b7-a4db-f402c0d84d3c/air-force-1-07-mens-shoes-FhS7BP.png",
+        "description": "An aged neutral palette updates this icon for timeless style that's easy to wear. Soft suede pairs with an exposed foam tongue for a retro look. Of course, some things never change: Nike Air units still cushion your every step."
+    },
+    {
+        "id": "6",
+        "name": "Nike Air Zoom Victory Tour 3",
+        "price": "190$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9b13bc3e-11c0-4db4-a764-f9d39c007458/air-zoom-victory-tour-3-mens-golf-shoes-7jpWdB.png",
+        "description": "Designed for the all-day grinders and dawn-patrollers, destined for the feet of the dedicated that just moseyed back to the driving range after 18. They give you robust comfort and unreal energy return, whether you're swinging through or playing through, while all-new spikes offer exceptional traction from tee to green. Plus, the old-school look will earn a knowing head nod from your peers after picking your putt out of the cup."
+    },
+    {
+        "id": "7",
+        "name": "Nike Air Force 1 Low Unity",
+        "price": "130$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fdb9c333-2355-4b98-bc2c-52ca40cec85f/air-force-1-low-unity-mens-shoes-Vhtg49.png",
+        "description": "Inspired by the original '82 prototype, this throwback look lets you leave your mark (literally, check out the outsole) and step into the history books. Premium materials keep you looking fresh, while celebratory accents nod to the beginning of the b-ball culture and fashion revolution."
+    },
+    {
+        "id": "8",
+        "name": "Nike Air Max Plus",
+        "price": "190$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fca7d444-ad00-4880-b436-ba2e86f48a81/air-max-plus-mens-shoes-x9G2xF.png",
+        "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Nike Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning."
+    },
+    {
+        "id": "9",
+        "name": "Nike Air Max Plus",
+        "price": "180$",
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b434966d-c850-4aa7-be6c-e99c0e236362/air-max-plus-mens-shoes-3mH52P.png",
+        "description": "Let your attitude have the edge in the Air Max Plus, featuring a Tuned Air experience for premium stability and unbelievable cushioning. It celebrates defiant style by combining the original wavy design lines, plastic accents and airy mesh."
+    }
+]
