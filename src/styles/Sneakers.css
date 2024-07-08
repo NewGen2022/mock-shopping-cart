@@ -1,0 +1,51 @@
+#sneakers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 20px;
+    margin: 120px auto;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+#loading {
+    font-weight: 600;
+    font-size: 32px;
+    margin: auto;
+}
+
+#error {
+    margin: 120px auto;
+}
+
+.shoe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px #303030;
+}
+.shoe-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px #ff9100;
+}
+
+.shoe-card img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.shoe-link {
+    color: white;
+    text-decoration: none;
+}
+.shoe-link:hover {
+    color: #ff9100;
+    text-shadow: 0 0 10px #ff9100;
+}
