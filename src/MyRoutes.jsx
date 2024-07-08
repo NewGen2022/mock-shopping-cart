@@ -1,7 +1,10 @@
 import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Home from './Home';
 import './styles/Home.css';
+import Home from './Home';
+import Sneakers from './Sneakers';
+import SneakerDetails from './SneakerDetails';
+import Cart from './Cart';
 
 const MyRoutes = () => {
     const location = useLocation();
@@ -17,8 +20,9 @@ const MyRoutes = () => {
     return (
         <Routes>
             <Route path='/mock-shopping-cart/' element={ <Home /> } />
-            <Route path='/mock-shopping-cart/sneakers/' element={ <h1>Sneakers</h1> } />
-            <Route path='/mock-shopping-cart/cart/' element={ <h1>Cart</h1> } />
+            <Route path='/mock-shopping-cart/sneakers/' element={ <Sneakers /> } />
+            <Route path='/mock-shopping-cart/sneakers/:id' element={ <SneakerDetails /> } />
+            <Route path='/mock-shopping-cart/cart/' element={ <Cart /> } />
         </Routes>
     );
 };
