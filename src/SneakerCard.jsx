@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const SneakerCard = ({ shoe }) => {
     return (
-        <Link to={`/mock-shopping-cart/sneakers/${shoe.id}`} className='shoe-link'>
+        <NavLink to={`/mock-shopping-cart/sneakers/${shoe.id}`} state={shoe} className='shoe-link'>
             <h2>{shoe.name}</h2>
             <img src={shoe.imageUrl} alt={shoe.name} />
             <p>{shoe.price}</p>
-        </Link>
+        </NavLink>
     );
 };
 
