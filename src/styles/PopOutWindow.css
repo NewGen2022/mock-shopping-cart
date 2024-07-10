@@ -1,0 +1,18 @@
+#pop-out-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 17%;
+    left: 90%;
+    max-width: 200px;
+    width: 40%;
+    transform: translate(-80%, -50%);
+    background-color: #303030;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+    font-weight: 600;
+}
