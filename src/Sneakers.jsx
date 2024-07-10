@@ -16,9 +16,9 @@ const Sneakers = () => {
                 }
                 const data = await response.json();
                 setShoes(data);
-                setLoading(false);
             } catch (error) {
                 setError(error.message);
+            } finally {
                 setLoading(false);
             }
         };
