@@ -10,7 +10,7 @@ const Sneakers = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('../public/data.json');
+                const response = await fetch('https://raw.githubusercontent.com/NewGen2022/mock-shopping-cart/main/public/data.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -23,9 +23,7 @@ const Sneakers = () => {
             }
         };
 
-        setTimeout(() => {
-            fetchData();
-        }, 1000);
+        fetchData();
 
     }, []);
 
